@@ -1,8 +1,8 @@
 import { NextPage } from 'next';
 import { FormEvent, Fragment, useState } from 'react';
 // -------- custom component -------- //
-import { Footer8 } from 'components/blocks/footer';
-import { Navbar } from 'components/blocks/navbar';
+// import { Footer8 } from 'components/blocks/footer';
+// import { Navbar } from 'components/blocks/navbar';
 import { ProductCard } from 'components/reuseable/product-cards';
 import Select from 'components/reuseable/Select';
 import Carousel from 'components/reuseable/Carousel';
@@ -36,7 +36,7 @@ const ProductDetails: NextPage = () => {
 
       {/* ========== header section ========== */}
       <header className="wrapper bg-light">
-        <Navbar search cart navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light" />
+        {/* <Navbar search cart navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light" /> */}
       </header>
 
       <main className="content-wrapper">
@@ -289,7 +289,7 @@ const ProductDetails: NextPage = () => {
       </main>
 
       {/* ========== footer section ========== */}
-      <Footer8 />
+      {/* <Footer8 /> */}
     </Fragment>
   );
 };
